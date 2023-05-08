@@ -1,64 +1,348 @@
 <html>
     <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap');
+        </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+          </style>
         <title>Sweet cake</title>
         <link rel="stylesheet" href="estilos.css">
     </head>
     <body>
         <header class="barra">
-            <div class="tarjeta-logo">
-                <img class="logo" src="./Imagenes/logo.png">
-            </div>
+            <img class="logo" src="./Imagenes/logo.png">
             <label class="menu" for="check">
-                <img src="menu (1).png">
+                <img src="./Iconos/menu (1).png">
             </label>
             <input type="checkbox" id="check" class="entrada">
             <nav>
                 <a href="#Pasteles" class="opcion">Pasteles</a>
                 <a href="#Cupcakes" class="opcion">Cupcakes</a>
                 <a href="#Donas" class="opcion">Donas</a>
-                <a href="#Testimonios" class="opcion">Testimonios</a>
+                <a href="#Opiniones" class="opcion">Opiniones</a>
                 <a href="#Contacto" class="opcion">Contactanos</a>
             </nav>
         </header>
-        <br>
-        <section class="seccion-pasteles" id="Pasteles">
-            <div class="grupo1">
+        <br><br><br><br><br><br><br><br><br>
+        <div class="tituloPrincipal" id="Pasteles">
+            <h2>P a s t e l e s</h2>
+        </div>
+        <section class="seccion-pasteles">
                 <div class="pastel">
-                    <img src="./Imagenes/PastelVainilla.jpg">
-                    <h4>Pastel de Vainilla</h4>
+                    <center><img src="./Imagenes/PastelVainilla.jpg"></center>
+                    <div class = "tituloP15">
+                        <h3>Pastel de Vainilla</h3>
+                    </div>
+                    <h4>100bs</h4>
+                    <p>Con una ráfaga de chispas en capas con un glaseado de confeti de vainilla dulce y cubierto con chispas de arco iris.</p>
+                    <button class="compra">
+                        <img class="carro" src="./Iconos/carrito.png">
+                    </button>
                 </div>
                 <div class="pastel">
-                    <img src="./Imagenes/pastelChocolate.jpg">
-                    <h4>Pastel de Chocolate</h4>
+                    <center><img src="./Imagenes/pastelChocolate.jpg"></center>
+                    <div class="tituloP26">
+                        <h3>Pastel de Chocolate</h3>
+                    </div>
+                    <h4>100bs</h4>
+                    <p>Bizcocho de chocolate con un rico glaseado de chocolate para el relleno y el exterior, adornado con chispas de chocolate.</p>
+                    <button class="compra">
+                        <img class="carro" src="./Iconos/carrito.png">
+                    </button>
                 </div>
                 <div class="pastel">
-                    <img src="./Imagenes/pastelRed.jpg">
-                    <h4>Pastel Red Velvet</h4>
+                    <center><img src="./Imagenes/pastelRed.jpg"></center>
+                    <div class="tituloP37">
+                        <h3>Pastel Red Velvet</h3>
+                    </div>
+                    <h4>100bs</h4>
+                    <p>Con glaseado de queso crema, el exterior está adornado con virutas de chocolate y migajas del mismo pastel.</p>
+                    <button class="compra">
+                        <img class="carro" src="./Iconos/carrito.png">
+                    </button>
                 </div>
                 <div class="pastel">
-                    <img src="./Imagenes/pastelZanahoria.jpg">
-                    <h4>Pastel de Zanahoria</h4>
+                    <center><img src="./Imagenes/pastelZanahoria.jpg"></center>
+                    <div class="tituloP48">
+                        <h3>Pastel de Zanahoria</h3>
+                    </div>
+                    <h4>100bs</h4>
+                    <p>Hecho con zanahorias recien   ralladas y nueces finamente picadas, está helado con glaseado de queso crema.</p>
+                    <button class="compra">
+                        <img class="carro" src="./Iconos/carrito.png">
+                    </button>
+                </div>
+                <div class="pastel">
+                    <center><img src="./Imagenes/pastelArcoIris.jpg"></center>
+                    <div class="tituloP15">
+                        <h3>Pastel Arco Iris</h3>
+                    </div>
+                    <h4>100bs</h4>
+                    <p>Seis capas de pastel de vainilla de colores del arco iris llenas con un glaseado de vainilla dulce y cubiertas con chispas de arco iris.</p>
+                    <button class="compra">
+                        <img class="carro" src="./Iconos/carrito.png">
+                    </button>
+                </div>
+                <div class="pastel">
+                    <center><img src="./Imagenes/pastelArcoChoco.png"></center>
+                    <div class="tituloP26">
+                        <h3>Pastel Arco Iris de Chocolate</h3>
+                    </div>
+                    <h4>100bs</h4>
+                    <p>Seis capas de pastel de los colores del arco iris con un rico glaseado de chocolate y adornado con chispas de chocolate.</p>
+                    <button class="compra">
+                        <img class="carro" src="./Iconos/carrito.png">
+                    </button>
+                </div>
+                <div class="pastel">
+                    <center><img src="./Imagenes/pastelArcoFresa.png"></center>
+                    <div class="tituloP37">
+                        <h3>Pastel Arco Iris de Fresa</h3>
+                    </div>
+                    <h4>100bs</h4>
+                    <p>Seis capas de pastel de vainilla de colores del arco iris llenas de una glaseada dulce de crema de mantequilla de fresa.</p>
+                    <button class="compra">
+                        <img class="carro" src="./Iconos/carrito.png">
+                    </button>
+                </div>
+                <div class="pastel">
+                    <center><img src="./Imagenes/pastelTiramisu.jpg"></center>
+                    <div class="tituloP48">
+                        <h3>Pastel de Tiramisu</h3>
+                    </div>
+                    <h4>100bs</h4>
+                    <p>Espresso empapado en capas de bizcocho de chocolate entre deliciosa mousse de mascarpone, con galletas "lady finger" y espolvoreado con cacao .</p>
+                    <button class="compra">
+                        <img class="carro" src="./Iconos/carrito.png">
+                    </button>
+                </div>
+        </section>
+        <div class="tituloPrincipal" id="Cupcakes">
+            <h2>C u p c a k e s</h2>
+        </div>
+        <section class="seccion-cupcakes">
+            <div class="cupcake">
+                <center><img src="./Imagenes/cupcakeUnic.jpeg"></center>
+                <div class = "tituloU">
+                    <h3>Cupcake Unicornio</h3>
+                </div>
+                <h4>10bs</h4>
+                <p>De vainilla  glaseado con crema pastelera, decorado con orejas y cuerno de unicornio.</p>
+                <button class="compra">
+                    <img class="carro" src="./Iconos/carrito.png">
+                </button>
+            </div>
+            <div class="cupcake">
+                <center><img src="./Imagenes/cupcakeChoco.jpeg"></center>
+                <div class="tituloC">
+                    <h3>Cupcake de Chocolate</h3>
+                </div>
+                <h4>8bs</h4>
+                <p>Bizcocho de chocolate con un rico glaseado de chocolate, adornado con una barra de chocolate.</p>
+                <button class="compra">
+                    <img class="carro" src="./Iconos/carrito.png">
+                </button>
+            </div>
+            <div class="cupcake">
+                <center><img src="./Imagenes/cupcakeRed.jpeg"></center>
+                <div class="tituloR">
+                    <h3>Cupcake Red Velvet</h3>
+                </div>
+                <h4>8bs</h4>
+                <p>Bizcocho red velvet con glaseado de crema pastelera,  adornado con  una fresa.</p>
+                <button class="compra">
+                    <img class="carro" src="./Iconos/carrito.png">
+                </button>
+            </div>
+        </section>
+        <div class="tituloPrincipal" id="Donas">
+            <h2>D o n a s</h2>
+        </div>
+        <section class="seccion-donas">
+            <div class="grupoD">
+                <div class="dona">
+                    <center><img src="./Imagenes/donaChocoFiesta.png"></center>
+                    <div class="descripcionD">
+                        <div class = "tituloD">
+                            <h3>Dona chocofiesta</h3>
+                        </div>
+                        <h4>5bs</h4>
+                        <p>Cobertura de chocolate con chispas de colores.</p>
+                        <button class="compra2">
+                            <img class="carro" src="./Iconos/carrito.png">
+                        </button>
+                    </div>
+                </div>
+                <div class="dona">
+                    <center><img src="./Imagenes/donaChocomani.png"></center>
+                    <div class="descripcionD">
+                        <div class="tituloD">
+                            <h3>Dona chocomani</h3>
+                        </div>
+                        <h4>8bs</h4>
+                        <p>Cobertura de chocolate con manis.</p>
+                        <button class="compra2">
+                            <img class="carro" src="./Iconos/carrito.png">
+                        </button>
+                    </div>
+                </div>
+                <div class="dona">
+                    <center><img src="./Imagenes/donaOreo.png"></center>
+                    <div class="descripcionD">
+                        <div class="tituloD">
+                            <h3>Dona de oreo</h3>
+                        </div>
+                        <h4>8bs</h4>
+                        <p>Cobertura de chocolate blanco con trozos de oreo.</p>
+                        <button class="compra2">
+                            <img class="carro" src="./Iconos/carrito.png">
+                        </button>
+                    </div>
+                </div>
+                <div class="dona">
+                    <center><img src="./Imagenes/donaEncanto.png"></center>
+                    <div class="descripcionD">
+                        <div class="tituloD">
+                            <h3>Dona encanto de chocolate</h3>
+                        </div>
+                        <h4>10bs</h4>
+                        <p>Rellena de choco avellana, con cobertura de chocolate y chispas de chocolate.</p>
+                        <button class="compra2">
+                            <img class="carro" src="./Iconos/carrito.png">
+                        </button>
+                    </div>
                 </div>
             </div>
-            <div class="grupo2">
-                <div class="pastel">
-                    <img src="./Imagenes/pastelArcoIris.jpg">
-                    <h4>Pastel Arco Iris</h4>
+            <div class="grupoD">
+                <div class="dona">
+                    <center><img src="./Imagenes/drDulcedeLeche.png"></center>
+                    <div class="descripcionD">
+                        <div class="tituloD">
+                            <h3>Dona rellena de dulce de leche</h3>
+                        </div>
+                        <h4>5bs</h4>
+                        <P>Espolvoreado con azucar glas.</P>
+                        <button class="compra2">
+                            <img class="carro" src="./Iconos/carrito.png">
+                        </button>
+                    </div>
                 </div>
-                <div class="pastel">
-                    <img src="./Imagenes/pastelArcoChoco.png">
-                    <h4>Pastel Arco Iris de Chocolate</h4>
+                <div class="dona">
+                    <center><img src="./Imagenes/drChantilly.png"></center>
+                    <div class="descripcionD">
+                        <div class="tituloD">
+                            <h3>Dona rellena de chantilly</h3>
+                        </div>
+                        <h4>5bs</h4>
+                        <P>Espolvoreado con azucar glas.</P>
+                        <button class="compra2">
+                            <img class="carro" src="./Iconos/carrito.png">
+                        </button>
+                    </div>
                 </div>
-
-                <div class="pastel">
-                    <img src="./Imagenes/pastelArcoFresa.png">
-                    <h4>Pastel Arco Iris de Fresa</h4>
+                <div class="dona">
+                    <center><img src="./Imagenes/drFresa.png"></center>
+                    <div class="descripcionD">
+                        <div class="tituloD">
+                            <h3>Dona rellena de fresa</h3>
+                        </div>
+                        <h4>5bs</h4>
+                        <P>Espolvoreado con azucar glas.</P>
+                        <button class="compra2">
+                            <img class="carro" src="./Iconos/carrito.png">
+                        </button>
+                    </div>
                 </div>
-                <div class="pastel">
-                    <img src="./Imagenes/pastelTiramisu.jpg">
-                    <h4>Pastel de Tiramisu</h4>
+                <div class="dona">
+                    <center><img src="./Imagenes/drMora.png"></center>
+                    <div class="descripcionD">
+                        <div class="tituloD">
+                            <h3>Dona rellena de mora</h3>
+                        </div>
+                        <h4>5bs</h4>
+                        <P>Espolvoreado con azucar glas.</P>
+                        <button class="compra2">
+                            <img class="carro" src="./Iconos/carrito.png">
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>
+        <div class="tituloPrincipal" id="Opiniones">
+            <h2>O p i n i o n e s  -  d e  -  l o s  -  c l i e n t e s</h2>
+        </div>
+        <section class="seccion-opiniones">
+            <div class="tarjetaM">
+                <div class="identificacion">
+                    <center><img class="foto" src="./Iconos/mujer.jpeg"></center>
+                    <h3>Sarahi Mendoza</h3>
+                </div>
+                <p>Me gusto mucho el pastel de arco iris, mis pequeños lo disfrutaron mucho, mi unica observacion es que tardo en llegar el pedido.</p>
+            </div>
+            <div class="tarjetaH">
+                <div class="identificacion">
+                    <center><img class="foto" src="./Iconos/hombre.jpeg"></center>
+                    <h3>Manuel Trujillo</h3>
+                </div>
+                <p>Las donas que preparan son realmente una delicia, mi novia las amo, espero sigan asi muchos exitos.</p>
+            </div>
+            <div class="tarjetaM">
+                <div class="identificacion">
+                    <center><img class="foto" src="./Iconos/mujer.jpeg"></center>
+                    <h3>Alicia Quiroga</h3>
+                </div>
+                <p>Me anime al probar una sus cupcakes me parecio que estan a buen precio, pero algo que no me gusto fue que cuando fui a su establecimiento estaba demasiado repleto, no habia donde sentarse.</p>
+            </div>
+        </section>
+        <div class="tituloPrincipal" id="Contacto">
+            <h2>C o n t á c t a n o s</h2>
+        </div>
+        <section class="seccion-contacto">
+            <div class="grupoC">
+                <h2>¿Quieres realizar un pedido especial?</h2>
+                <div class="opcionesC">
+                    <div class="formaDeContacto">
+                        <img class="app" src="./Iconos/telefono.png">
+                        <h3>+591 60391320</h3>
+                    </div>
+                    <div class="formaDeContacto">
+                        <img class="app" src="./Iconos/gmail.png">
+                        <h3>sweetcake@gmail.com</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="grupoPreguntas">
+                <h2 class="varianteh2">Envía un mensaje con los detalles de tu pedido</h2>
+                <div>
+                    <h3 class="varianteh3">Nombre completo</h3>
+                    <input class="llenado" type="text" placeholder="Ingresa tu nombre">
+                </div>
+                <div>
+                    <h3 class="varianteh3">Correo electrónico</h3>
+                    <input class="llenado" type="email" placeholder="Ingresa tu correo electrónico">
+                </div>
+                <div>
+                    <h3 class="varianteh3">Descripción</h3>
+                    <input class="llenado" type="text" placeholder="Ingresa una breve descripción de tu pedido">
+                </div>
+                <button class="botonEnviar">
+                    Enviar
+                </button>
+            </div>
+            </div>
+        </section>
+        <footer class="pie-pagina">
+            <div class="aplicaciones">
+                <img class="app" src="./Iconos/facebookL.png">
+                <img class="app" src="./Iconos/instagramL.png">
+                <img class="app" src="./Iconos/youtubeL.png">
+                <img class="app" src="./Iconos/twitter.png">
+                <img class="app" src="./Iconos/tiktok.png">
+            </div>
+            <div>
+                <h5>SweetCake &copy; 2023. Todos los derechos reservados</h5>
+            </div>
+        </footer>
     </body>
 </html>
