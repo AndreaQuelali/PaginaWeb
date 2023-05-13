@@ -170,13 +170,6 @@ img{
     margin-bottom: 5px;  
 }
 
-img:hover{
-    width: 160px;
-    height: 160px;  
-    margin-bottom: 5px;
-    transition-duration: 200ms;  
-}
-
 .tituloP15{
     border-bottom: 6px solid rgba(254, 247, 180, 1);
     border-radius: 3px;
